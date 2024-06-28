@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(./images/9681161_4205986.jpg); */
+    background-image: url(./images/14805788_Cloud_001S.jpg);
+    
+}
+header{
+    text-align: center;
+    color: #513960;
+    margin: 12px;
+    
+}
+header button{
+    padding: 12px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: none;
+    
+}
+form{
+    margin: 250px 0px 10px 0px;
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+form input{
+    
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+}
+form button{
+    background: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 7px; */
+    padding: 7px 7px;
+    border: none;
+    border-radius: 7px;
+    cursor:pointer;
+    
+}
+
+#container {
+    position: fixed; 
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px); 
+    text-align: center; 
+}
+
+#container h1, #container h2, #container h4, #container p {
+    margin: 10px 0;
+}
