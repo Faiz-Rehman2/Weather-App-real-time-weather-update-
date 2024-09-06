@@ -4,7 +4,7 @@ const city = document.querySelector('#city')
 
 form.addEventListener("submit", (event)=>{
     event.preventDefault();
-    axios(`http://api.weatherapi.com/v1/current.json?key=&q=${city.value}&aqi=no`)
+    axios(`http://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84351232508&q=${city.value}&aqi=no`)
     .then((res) => {
         console.log(res.data);
         card.innerHTML = `
